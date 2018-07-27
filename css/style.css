@@ -1,0 +1,99 @@
+html{
+
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.nav-background{
+    background-color: #ffffff;
+    height: 120px;
+    width: 100%;
+}
+
+.upper-nav{
+    height: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.upper-nav ul{
+    float: right;
+    padding-right: 50px;
+}
+
+.upper-nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 80%;
+    font-weight: 300;
+    padding-right: 10px;
+    border-left: 1px solid #6c757d;
+    padding-left: 10px;
+
+}
+
+.middle-row{
+    height: 60px;
+}
+
+.logo{
+    width: 130px;
+    height: auto;
+
+}
+
+.logo-div{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.nav-search{
+    padding-top: 10px;
+}
+
+.nav-search-input input[type=text]{
+    height: 40px;
+    font-size: 80%;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.btn-search{
+    height: 40px;
+    line-height: 0.6;
+    font-size: 80%;
+}
+
+.nav-cart{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.nav-bottom{
+    background-color: #fdf9f9;
+
+}
+
+.nav-categories ul {
+
+
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 60px;
+}
+
+.nav-categories ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 72%;
+    padding-left: 40px;
+}
+
+/*=================================
+Section - Content
+===================================*/
