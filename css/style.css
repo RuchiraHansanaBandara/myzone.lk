@@ -13,6 +13,7 @@ body{
     background-color: #ffffff;
     height: 120px;
     width: 100%;
+
 }
 
 .upper-nav{
@@ -97,3 +98,24 @@ body{
 /*=================================
 Section - Content
 ===================================*/
+.carousel-limits{
+    margin-left: 0 !important; /*this is the solution to the  problem,which  we faced last week.*/
+    margin-top: 20px;
+}
+
+.side-image{
+    height: 468px;
+    border: 1px solid;
+    margin-top: 20px;
+
+}
+
+.content-text{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
