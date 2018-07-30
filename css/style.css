@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
 
     font-size: 20px;
@@ -118,4 +122,99 @@ Section - Content
     transform: translate(-50%, -50%);
     text-align: center;
 
+}
+
+/*=======================================
+Section - Footer
+========================================*/
+.footer-top{
+    background-color: #333;
+    font-size: 16px;
+    color: #888;
+    font-weight: 300;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.footer-top h4{
+    color: whitesmoke;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-top h5{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.move-right{
+    float: right;
+    margin-left: 40%;
+
+}
+
+.footer-top h5 span{
+    font-weight: 300;
+}
+
+.footer-nav{
+    list-style: none;
+}
+
+.footer-top ul li a:link,
+.footer-top ul li a:visited{
+    color: #888;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+.footer-top ul li a:hover,
+.footer-top ul li a:active{
+    color: #ddd;
+
+}
+
+.footer-s-3 .title{
+    margin-left: 10%;
+}
+
+.footer-top .footer-s-3 ul{
+    margin-left: 20%;
+}
+
+.footer-top .footer-s-3 ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.copyrights{
+    background-color: #222;
+    font-size: 16px;
+    color: #888;
+    font-weight: 400;
+
+}
+
+.copyrights p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo-footer{
+    width: 130px;
+    height: auto;
+    text-align: left;
+    margin-top: 5px;
+}
+
+address{
+    margin-top: 25px;
 }
