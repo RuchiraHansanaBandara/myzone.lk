@@ -492,3 +492,38 @@ Section - Footer
 address{
     margin-top: 25px;
 }
+/*====================================================
+PAGES-CONTACT US
+=====================================================*/
+#topic{
+    text-align: center;
+    color: darkgrey;
+}
+#paragraph1{
+    text-align: center;
+}
+
+.boxmodel1{
+    border: 3px  solid  black;
+    padding: 30px 20px;
+    margin: 0px 200px;
+
+}
+.contact1{
+    text-align: center;
+}
+
+.res1{
+    text-align: center;
+}
+.howcan1{
+    text-align: center;
+}
+.howw1{
+    height: 80px;
+    width: 600px;
+}
+
+.contact{
+    text-align: center;
+}
