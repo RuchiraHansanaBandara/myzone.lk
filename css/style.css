@@ -527,3 +527,109 @@ PAGES-CONTACT US
 .contact{
     text-align: center;
 }
+
+/*====================================================
+Product preview
+=====================================================*/
+.product-card{
+    overflow: hidden;
+    position: relative;
+    left:80px;
+    background: white;
+     
+}
+
+.image{
+    width: 300px;
+    height: auto;
+    float: left;
+    overflow: hidden
+}
+
+.info{
+    float: left;
+    padding: 20px;
+}
+
+.desc{
+    
+    font-size: 20px;
+    color:#9e9e9e;
+}
+
+.detail{
+    font-size: 15px;
+   
+}
+
+.price{
+    font-weight: 600;
+    font-size: 28px;
+    font-family: arial;
+    color: #f60;
+    padding-left: 30px;
+    
+}
+
+.info span a{
+    display: block;
+    float: left;
+    padding: 2px 4px;
+    border: 1px solid ;
+    font-size: 20px;
+    border-radius: 9px;
+    border-color:#9e9e9e;
+}
+
+.info span a:hover{
+    border: 2px ridge #fd9729;
+}
+
+.ship{
+    font-weight: 700;
+    padding-left: 30px;
+}
+.time{
+    color: #9e9e9e;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+.buy{
+    width: 260px;
+    font-size: 24px;
+    color: white;
+    display: block;
+    float: left;
+    padding: 6px;
+    text-align: center;
+    margin: 8px;
+    transition: 0.4 opacity;
+    border: 1px solid #fd9729;
+    color: #fff;
+    background-color: #fd9729;
+    border-radius: 10px;
+}
+
+
+.addbtn{
+    width: 260px;
+    font-size: 24px;
+    color: white;
+    background: #f60;
+    display: block;
+    float: left;
+    padding: 6px;
+    text-align: center;
+    margin: 8px;
+    transition: 0.4 opacity;
+    border-radius: 10px;
+}
+
+.addbtn:hover{
+    opacity: 0.7;
+}
+
+.buy:hover{
+    opacity: 0.7;
+}
