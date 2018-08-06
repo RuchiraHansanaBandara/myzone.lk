@@ -44,6 +44,10 @@ body{
 
  }
 
+.contactus{
+    border-right: 1px solid #6c757d;
+}
+
 .upper-nav ul li a:link,
 .upper-nav ul li a:visited{
 
