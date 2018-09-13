@@ -1,3 +1,4 @@
+
 function priceToQty() {
     var qty=document.getElementById("qty").value;
     var price=document.getElementById("rprice1").value;
@@ -256,5 +257,6 @@ document.querySelector('#scroll').addEventListener('click',function () {
     document.body.scrollTop = 0;
 
 })
+
 
 
