@@ -69,21 +69,21 @@
 }
 
 /*Small tablets: 481 to 767px*/
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
     /*logo-upper-nav*/
-    .logo{
+    .logo {
         width: 100%;
         height: auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
 
-    .nav-search{
+    .nav-search {
         padding-top: 10px;
         width: 100%;
     }
 
-    .nav-search-input input[type=text]{
+    .nav-search-input input[type=text] {
         width: 100px;
         height: 35px;
         font-size: 80%;
@@ -91,7 +91,7 @@
         padding-left: 20px;
     }
 
-    .btn-search{
+    .btn-search {
         width: 70px;
         height: 35px;
         line-height: 0.6;
@@ -99,19 +99,20 @@
         display: none;
     }
 
-    .btn-search-1{
+    .btn-search-1 {
         height: 35px;
         line-height: 0.6;
         font-size: 80%;
 
     }
 
-    .nav-cart{
+    .nav-cart {
         width: 100px;
         height: 35px;
         padding-left: 10px;
         padding-top: 10px;
     }
+
     .btn-sm, .btn-group-sm > .btn {
         padding: 0.25rem 0.5rem;
         font-size: 0.875rem;
@@ -119,16 +120,17 @@
         border-radius: 0.2rem;
     }
 
-    .nav-cart .cart-text{
+    .nav-cart .cart-text {
         display: none;
     }
 
     /*banner imgs*/
-    .side-image{
+    .side-image {
         width: 70%;
         height: auto;
         margin-top: 20px;
         padding-right: 10px;
+    }
 }
 
 /*Small phones: 0 to 480px*/
